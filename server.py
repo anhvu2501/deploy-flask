@@ -10,6 +10,7 @@ config = tf.compat.v1.ConfigProto()
 config.gpu_options.allow_growth = True
 session = tf.compat.v1.InteractiveSession(config=config)
 
+# Nov, 19 2022 => set up ssh key and test it for new installed ubuntu
 # create an instance of Flask
 app = Flask(__name__)
 CORS(app)
